@@ -1,5 +1,5 @@
 import { Test, TestingModule } from '@nestjs/testing';
-import { PetsResolver } from './pets.resolver';
+import { PetsResolver } from '../pets.resolver';
 
 describe('PetsResolver', () => {
   let resolver: PetsResolver;
